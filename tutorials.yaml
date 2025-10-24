@@ -1,0 +1,20 @@
+tutorials:
+  - title: "Making models of Vital et al butyrate synthesis pathway enzymes"
+    date: "2024-10-15"
+    filename: "ColabFold_ButGenesDB_Notebook.html"
+    description: "An easy-to-read and reproducible documentation of how ColabFold was used to model each unique protein sequence in Vital et al.'s butyrate synthesis pathway enzymes database."
+
+  - title: "Quantitative mapping metagenome reads to a reference database"
+    date: "2024-09-17"
+    filename: "Quant_Fxnl_Meta_Wrkflw_reads.html"
+    description: "A reference document for a programmatic way of quantifying metagenome genes. This is a self-contained and fully reproducible documentation designed to be modular and adaptable to your own workflow."
+
+  - title: "Quantitative mapping metagenome reads to annotated metagenome ORFs"
+    date: "2024-10-03"
+    filename: "Quant_Fxnl_Meta_Wrkflw_orfs2.html"
+    description: "Workflow for quantifying reads representing coding sequences of butyrate synthesis pathway genes in assembled FL100 metagenomes, based on the dbCAN tutorial Module 3."
+
+  - title: "Making HMMs for Vital et al butyrate synthesis pathway genes"
+    date: "2024-09-24"
+    filename: "makingButSyntPathGenesHMMs.html"
+    description: "Easy-to-read and reproducible documentation of how to build HMMER-formatted HMMs of each enzyme function in Vital et al.'s butyrate synthesis pathway genes database."

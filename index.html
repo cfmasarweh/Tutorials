@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinformatics Tutorials</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 10px;
+        }
+        .intro {
+            color: #555;
+            margin: 20px 0 40px 0;
+            font-size: 1.1em;
+        }
+        .tutorial {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #0066cc;
+            border-radius: 4px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .tutorial:hover {
+            transform: translateX(5px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .tutorial h2 {
+            margin-top: 0;
+            color: #0066cc;
+            font-size: 1.4em;
+        }
+        .tutorial .date {
+            color: #888;
+            font-size: 0.9em;
+            margin: 10px 0;
+            font-style: italic;
+        }
+        .tutorial .description {
+            color: #444;
+            margin: 15px 0;
+            line-height: 1.7;
+        }
+        .tutorial a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            font-weight: 500;
+        }
+        .tutorial a:hover {
+            background-color: #0052a3;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #666;
+        }
+        footer a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bioinformatics Tutorials</h1>
+        <p class="intro">A collection of reproducible workflows and documentation for bioinformatics analyses.</p>
+
+        <div class="tutorial">
+            <h2>Making models of Vital et al butyrate synthesis pathway enzymes</h2>
+            <div class="date">2024-10-15</div>
+            <div class="description">An easy-to-read and reproducible documentation of how ColabFold was used to model each unique protein sequence in Vital et al.'s butyrate synthesis pathway enzymes database.</div>
+            <a href="ColabFold_ButGenesDB_Notebook.html">View Tutorial →</a>
+        </div>
+
+        <div class="tutorial">
+            <h2>Quantitative mapping metagenome reads to a reference database</h2>
+            <div class="date">2024-09-17</div>
+            <div class="description">A reference document for a programmatic way of quantifying metagenome genes. This is a self-contained and fully reproducible documentation designed to be modular and adaptable to your own workflow.</div>
+            <a href="Quant_Fxnl_Meta_Wrkflw_reads.html">View Tutorial →</a>
+        </div>
+
+        <div class="tutorial">
+            <h2>Quantitative mapping metagenome reads to annotated metagenome ORFs</h2>
+            <div class="date">2024-10-03</div>
+            <div class="description">Workflow for quantifying reads representing coding sequences of butyrate synthesis pathway genes in assembled FL100 metagenomes, based on the dbCAN tutorial Module 3.</div>
+            <a href="Quant_Fxnl_Meta_Wrkflw_orfs2.html">View Tutorial →</a>
+        </div>
+
+        <div class="tutorial">
+            <h2>Making HMMs for Vital et al butyrate synthesis pathway genes</h2>
+            <div class="date">2024-09-24</div>
+            <div class="description">Easy-to-read and reproducible documentation of how to build HMMER-formatted HMMs of each enzyme function in Vital et al.'s butyrate synthesis pathway genes database.</div>
+            <a href="makingButSyntPathGenesHMMs.html">View Tutorial →</a>
+        </div>
+
+        <footer>
+            <p>Generated from RMarkdown files | <a href="https://github.com/cfmasarweh/Tutorials">View on GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
