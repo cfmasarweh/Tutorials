@@ -42,3 +42,12 @@ Goal for this document: I created this as an easy-to-read and reproducable docum
 Directions: read this document and run in New Spitfire the red-outlined code chunks with the header “Run this”. Change it and add to it to make it your own. You could use Old Spitfire, too, because this workflow does not require that many cores, but if your MSAs are rather large and you want to use GNU parallel, use New Spitfire so you dont dominate Old Spitfire.
 
 The Python scripts are all my own. I tried a little bit to make this workflow applicable to any collection of related genes and any set of short-reads metagenomes assembled with a k-mer method, but there are some hard-coded format expectations, such as enzyme functions being denoted in fasta headers as “function%restOfFastaHeader”.
+
+-----
+
+## Dietary and biomarker predictors of CACO-2 barrier function and inflammation: preparing data for analysis
+### 1_CACO2_permeability-data_preparation.html
+#### 2025-11-19
+#### RMarkdown and Content author: Chad Masarweh
+
+Preparing untidy data for analysis, mergiing with the metadata, and adding columns for logistic regression and random forest.
