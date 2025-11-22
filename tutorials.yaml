@@ -18,3 +18,8 @@ tutorials:
     date: "2024-09-24"
     filename: "makingButSyntPathGenesHMMs.html"
     description: "Easy-to-read and reproducible documentation of how to build HMMER-formatted HMMs of each enzyme function in Vital et al.'s butyrate synthesis pathway genes database."
+
+  - title: "Making HMM profiles for each butyrate synthesis pathway enzyme"
+    date: "2024-09-24"
+    filename: "1_CACO2_permeability-data_preparation.html"
+    description: "Easy-to-read and reproducible documentation of how to build HMMER-formatted HMMs of each enzyme function in Vital et al.'s butyrate synthesis pathway genes database."
