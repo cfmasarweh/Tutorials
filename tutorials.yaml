@@ -14,10 +14,10 @@ tutorials:
     filename: "Quant_Fxnl_Meta_Wrkflw_orfs2.html"
     description: "Workflow for quantifying reads representing coding sequences of butyrate synthesis pathway genes in assembled FL100 metagenomes, based on the dbCAN tutorial Module 3."
 
-  - title: "Making HMM profiles for each butyrate synthesis pathway enzyme"
-    date: "2024-09-24"
+  - title: "Dietary and biomarker predictors of CACO-2 barrier function and inflammation: preparing data for analysis"
+    date: "2025-11-21"
     filename: "1_CACO2_permeability-data_preparation.html"
-    description: "Easy-to-read and reproducible documentation of how to build HMMER-formatted HMMs of each enzyme function in Vital et al.'s butyrate synthesis pathway genes database."
+    description: "Easy-to-read and reproducible R documentation of how I formatted various data files for statistical analysis."
 
   - title: "Making HMM profiles for each butyrate synthesis pathway enzyme"
     date: "2024-09-24"
