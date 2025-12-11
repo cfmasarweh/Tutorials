@@ -19,6 +19,11 @@ tutorials:
     filename: "1_CACO2_permeability-data_preparation.html"
     description: "Easy-to-read and reproducible R documentation of how I formatted various data files for statistical analysis."
 
+  - title: "Correlating Butyrate Pathway Genes with Fecal Butyrate Concentration"
+    date: "2024-12-05"
+    filename: "FL100_ButyrateConc_RPKG_correlation.html"
+    description: "Notes and documentation of my analysis determining structure-similarity annotation of butyrate synthesis enzymes performs equally as well as, or less well than, HMM profile- and DIAMOND-based methods"
+    
   - title: "Making HMM profiles for each butyrate synthesis pathway enzyme"
     date: "2024-09-24"
     filename: "makingButSyntPathGenesHMMs.html"
